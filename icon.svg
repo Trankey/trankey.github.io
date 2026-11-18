@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="tk-bg" x1="24" y1="16" x2="488" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="52%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <radialGradient id="tk-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(390 120) rotate(135) scale(360)">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.34"/>
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tk-shield" x1="120" y1="86" x2="392" y2="428" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <linearGradient id="tk-shield-fill" x1="256" y1="88" x2="256" y2="426" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="tk-key" x1="220" y1="154" x2="310" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Icon Base -->
+  <rect width="512" height="512" rx="116" fill="url(#tk-bg)"/>
+  <rect width="512" height="512" rx="116" fill="url(#tk-glow)"/>
+  <rect x="8" y="8" width="496" height="496" rx="110" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="4"/>
+
+  <!-- Precision Security Shield -->
+  <path
+    d="M256 84L388 134V248C388 331 331 398 256 426C181 398 124 331 124 248V134L256 84Z"
+    fill="url(#tk-shield-fill)"
+    stroke="url(#tk-shield)"
+    stroke-width="22"
+    stroke-linejoin="round"
+  />
+
+  <!-- Key Bow (Ring) -->
+  <circle
+    cx="256"
+    cy="206"
+    r="44"
+    stroke="url(#tk-key)"
+    stroke-width="24"
+  />
+
+  <!-- Emerald Verified Core -->
+  <circle cx="256" cy="206" r="16" fill="#10B981"/>
+
+  <!-- Key Blade & Teeth -->
+  <path
+    d="M256 250V350M256 300H298M256 336H288"
+    stroke="url(#tk-key)"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
