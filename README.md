@@ -1,6 +1,6 @@
 <div align="center">
 
-
+<img src="./pwa-192x192.png" width="92" height="92" alt="Logo do Trankey" />
 
 # Trankey
 
@@ -160,7 +160,7 @@ Desenvolvido por **Saulo ([saulomgg](https://saulomgg.github.io/ ))**
 ```text
 +--------------------------------------------------------+
 | [SYSTEM]  Trankey - Gratuito e independente            |
-| [STATUS]  Offline - Sem cadastro - EN / PT / ES         |
+| [STATUS]  Offline - Sem cadastro - EN / PT / ES        |
 | [PRIVACY] Criptografia local - Sem rastreamento        |
 +--------------------------------------------------------+
 ```
