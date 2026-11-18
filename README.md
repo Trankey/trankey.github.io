@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/icon.svg" width="92" height="92" alt="Logo do Trankey" />
+
 
 # Trankey
 
